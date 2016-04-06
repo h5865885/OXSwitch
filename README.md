@@ -10,5 +10,8 @@
                 NSLog(@"status = %d",status);
            }];
 
+      [self.oxSwitch handleWithBlock:UIControlEventTouchUpInside blcok:^(BOOL status) {
+          NSLog(@"status = %d",status);
+      }];
 
 ![image](https://github.com/h5865885/OXSwitch/blob/master/switch.gif)   
