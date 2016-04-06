@@ -4,5 +4,6 @@
 
 `_oxSwitch = [[OXSwitch alloc]initWithFrame:CGRectMake(50, 50, 40, 25)];`
 
-  
+`self.oxSwitch.status = SwitchStatuOff;`
+
 ![image](https://github.com/h5865885/OXSwitch/blob/master/switch.gif)   
