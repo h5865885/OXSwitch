@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAC1A00F1CB4F3CD008C0696 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC1A00E1CB4F3CD008C0696 /* main.m */; };
+		CAC1A0121CB4F3CD008C0696 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC1A0111CB4F3CD008C0696 /* AppDelegate.m */; };
+		CAC1A0151CB4F3CD008C0696 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC1A0141CB4F3CD008C0696 /* ViewController.m */; };
+		CAC1A0181CB4F3CD008C0696 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC1A0161CB4F3CD008C0696 /* Main.storyboard */; };
+		CAC1A01A1CB4F3CD008C0696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAC1A0191CB4F3CD008C0696 /* Assets.xcassets */; };
+		CAC1A01D1CB4F3CD008C0696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC1A01B1CB4F3CD008C0696 /* LaunchScreen.storyboard */; };
+		CAC1A0281CB4F3CD008C0696 /* OXSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC1A0271CB4F3CD008C0696 /* OXSwitchTests.m */; };
+		CAC1A0331CB4F3CD008C0696 /* OXSwitchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC1A0321CB4F3CD008C0696 /* OXSwitchUITests.m */; };
+		CAC1A0421CB4F505008C0696 /* OXSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC1A0411CB4F505008C0696 /* OXSwitch.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAC1A0241CB4F3CD008C0696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAC1A0021CB4F3CD008C0696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAC1A0091CB4F3CD008C0696;
+			remoteInfo = OXSwitch;
+		};
+		CAC1A02F1CB4F3CD008C0696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAC1A0021CB4F3CD008C0696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAC1A0091CB4F3CD008C0696;
+			remoteInfo = OXSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAC1A00A1CB4F3CD008C0696 /* OXSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OXSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC1A00E1CB4F3CD008C0696 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAC1A0101CB4F3CD008C0696 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAC1A0111CB4F3CD008C0696 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAC1A0131CB4F3CD008C0696 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAC1A0141CB4F3CD008C0696 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CAC1A0171CB4F3CD008C0696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAC1A0191CB4F3CD008C0696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAC1A01C1CB4F3CD008C0696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAC1A01E1CB4F3CD008C0696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAC1A0231CB4F3CD008C0696 /* OXSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OXSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC1A0271CB4F3CD008C0696 /* OXSwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OXSwitchTests.m; sourceTree = "<group>"; };
+		CAC1A0291CB4F3CD008C0696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAC1A02E1CB4F3CD008C0696 /* OXSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OXSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC1A0321CB4F3CD008C0696 /* OXSwitchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OXSwitchUITests.m; sourceTree = "<group>"; };
+		CAC1A0341CB4F3CD008C0696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAC1A0401CB4F505008C0696 /* OXSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OXSwitch.h; sourceTree = "<group>"; };
+		CAC1A0411CB4F505008C0696 /* OXSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OXSwitch.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAC1A0071CB4F3CD008C0696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC1A0201CB4F3CD008C0696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC1A02B1CB4F3CD008C0696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAC1A0011CB4F3CD008C0696 = {
+			isa = PBXGroup;
+			children = (
+				CAC1A00C1CB4F3CD008C0696 /* OXSwitch */,
+				CAC1A0261CB4F3CD008C0696 /* OXSwitchTests */,
+				CAC1A0311CB4F3CD008C0696 /* OXSwitchUITests */,
+				CAC1A00B1CB4F3CD008C0696 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAC1A00B1CB4F3CD008C0696 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAC1A00A1CB4F3CD008C0696 /* OXSwitch.app */,
+				CAC1A0231CB4F3CD008C0696 /* OXSwitchTests.xctest */,
+				CAC1A02E1CB4F3CD008C0696 /* OXSwitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAC1A00C1CB4F3CD008C0696 /* OXSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				CAC1A0101CB4F3CD008C0696 /* AppDelegate.h */,
+				CAC1A0111CB4F3CD008C0696 /* AppDelegate.m */,
+				CAC1A0131CB4F3CD008C0696 /* ViewController.h */,
+				CAC1A0141CB4F3CD008C0696 /* ViewController.m */,
+				CAC1A0161CB4F3CD008C0696 /* Main.storyboard */,
+				CAC1A0401CB4F505008C0696 /* OXSwitch.h */,
+				CAC1A0411CB4F505008C0696 /* OXSwitch.m */,
+				CAC1A0191CB4F3CD008C0696 /* Assets.xcassets */,
+				CAC1A01B1CB4F3CD008C0696 /* LaunchScreen.storyboard */,
+				CAC1A01E1CB4F3CD008C0696 /* Info.plist */,
+				CAC1A00D1CB4F3CD008C0696 /* Supporting Files */,
+			);
+			path = OXSwitch;
+			sourceTree = "<group>";
+		};
+		CAC1A00D1CB4F3CD008C0696 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAC1A00E1CB4F3CD008C0696 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAC1A0261CB4F3CD008C0696 /* OXSwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAC1A0271CB4F3CD008C0696 /* OXSwitchTests.m */,
+				CAC1A0291CB4F3CD008C0696 /* Info.plist */,
+			);
+			path = OXSwitchTests;
+			sourceTree = "<group>";
+		};
+		CAC1A0311CB4F3CD008C0696 /* OXSwitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAC1A0321CB4F3CD008C0696 /* OXSwitchUITests.m */,
+				CAC1A0341CB4F3CD008C0696 /* Info.plist */,
+			);
+			path = OXSwitchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAC1A0091CB4F3CD008C0696 /* OXSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAC1A0371CB4F3CD008C0696 /* Build configuration list for PBXNativeTarget "OXSwitch" */;
+			buildPhases = (
+				CAC1A0061CB4F3CD008C0696 /* Sources */,
+				CAC1A0071CB4F3CD008C0696 /* Frameworks */,
+				CAC1A0081CB4F3CD008C0696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OXSwitch;
+			productName = OXSwitch;
+			productReference = CAC1A00A1CB4F3CD008C0696 /* OXSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAC1A0221CB4F3CD008C0696 /* OXSwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAC1A03A1CB4F3CD008C0696 /* Build configuration list for PBXNativeTarget "OXSwitchTests" */;
+			buildPhases = (
+				CAC1A01F1CB4F3CD008C0696 /* Sources */,
+				CAC1A0201CB4F3CD008C0696 /* Frameworks */,
+				CAC1A0211CB4F3CD008C0696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAC1A0251CB4F3CD008C0696 /* PBXTargetDependency */,
+			);
+			name = OXSwitchTests;
+			productName = OXSwitchTests;
+			productReference = CAC1A0231CB4F3CD008C0696 /* OXSwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAC1A02D1CB4F3CD008C0696 /* OXSwitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAC1A03D1CB4F3CD008C0696 /* Build configuration list for PBXNativeTarget "OXSwitchUITests" */;
+			buildPhases = (
+				CAC1A02A1CB4F3CD008C0696 /* Sources */,
+				CAC1A02B1CB4F3CD008C0696 /* Frameworks */,
+				CAC1A02C1CB4F3CD008C0696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAC1A0301CB4F3CD008C0696 /* PBXTargetDependency */,
+			);
+			name = OXSwitchUITests;
+			productName = OXSwitchUITests;
+			productReference = CAC1A02E1CB4F3CD008C0696 /* OXSwitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAC1A0021CB4F3CD008C0696 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xxoo;
+				TargetAttributes = {
+					CAC1A0091CB4F3CD008C0696 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CAC1A0221CB4F3CD008C0696 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CAC1A0091CB4F3CD008C0696;
+					};
+					CAC1A02D1CB4F3CD008C0696 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CAC1A0091CB4F3CD008C0696;
+					};
+				};
+			};
+			buildConfigurationList = CAC1A0051CB4F3CD008C0696 /* Build configuration list for PBXProject "OXSwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAC1A0011CB4F3CD008C0696;
+			productRefGroup = CAC1A00B1CB4F3CD008C0696 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAC1A0091CB4F3CD008C0696 /* OXSwitch */,
+				CAC1A0221CB4F3CD008C0696 /* OXSwitchTests */,
+				CAC1A02D1CB4F3CD008C0696 /* OXSwitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAC1A0081CB4F3CD008C0696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC1A01D1CB4F3CD008C0696 /* LaunchScreen.storyboard in Resources */,
+				CAC1A01A1CB4F3CD008C0696 /* Assets.xcassets in Resources */,
+				CAC1A0181CB4F3CD008C0696 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC1A0211CB4F3CD008C0696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC1A02C1CB4F3CD008C0696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAC1A0061CB4F3CD008C0696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC1A0151CB4F3CD008C0696 /* ViewController.m in Sources */,
+				CAC1A0121CB4F3CD008C0696 /* AppDelegate.m in Sources */,
+				CAC1A0421CB4F505008C0696 /* OXSwitch.m in Sources */,
+				CAC1A00F1CB4F3CD008C0696 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC1A01F1CB4F3CD008C0696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC1A0281CB4F3CD008C0696 /* OXSwitchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC1A02A1CB4F3CD008C0696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC1A0331CB4F3CD008C0696 /* OXSwitchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAC1A0251CB4F3CD008C0696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAC1A0091CB4F3CD008C0696 /* OXSwitch */;
+			targetProxy = CAC1A0241CB4F3CD008C0696 /* PBXContainerItemProxy */;
+		};
+		CAC1A0301CB4F3CD008C0696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAC1A0091CB4F3CD008C0696 /* OXSwitch */;
+			targetProxy = CAC1A02F1CB4F3CD008C0696 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAC1A0161CB4F3CD008C0696 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAC1A0171CB4F3CD008C0696 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAC1A01B1CB4F3CD008C0696 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAC1A01C1CB4F3CD008C0696 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAC1A0351CB4F3CD008C0696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAC1A0361CB4F3CD008C0696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAC1A0381CB4F3CD008C0696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OXSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wh.test.OXSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAC1A0391CB4F3CD008C0696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OXSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wh.test.OXSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAC1A03B1CB4F3CD008C0696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OXSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wh.test.OXSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OXSwitch.app/OXSwitch";
+			};
+			name = Debug;
+		};
+		CAC1A03C1CB4F3CD008C0696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OXSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wh.test.OXSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OXSwitch.app/OXSwitch";
+			};
+			name = Release;
+		};
+		CAC1A03E1CB4F3CD008C0696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OXSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wh.test.OXSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OXSwitch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CAC1A03F1CB4F3CD008C0696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OXSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wh.test.OXSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OXSwitch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAC1A0051CB4F3CD008C0696 /* Build configuration list for PBXProject "OXSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC1A0351CB4F3CD008C0696 /* Debug */,
+				CAC1A0361CB4F3CD008C0696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAC1A0371CB4F3CD008C0696 /* Build configuration list for PBXNativeTarget "OXSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC1A0381CB4F3CD008C0696 /* Debug */,
+				CAC1A0391CB4F3CD008C0696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAC1A03A1CB4F3CD008C0696 /* Build configuration list for PBXNativeTarget "OXSwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC1A03B1CB4F3CD008C0696 /* Debug */,
+				CAC1A03C1CB4F3CD008C0696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAC1A03D1CB4F3CD008C0696 /* Build configuration list for PBXNativeTarget "OXSwitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC1A03E1CB4F3CD008C0696 /* Debug */,
+				CAC1A03F1CB4F3CD008C0696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAC1A0021CB4F3CD008C0696 /* Project object */;
+}
