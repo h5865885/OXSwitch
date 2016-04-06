@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "49B1347B596B15B4A7A86DA0ED609683BFE160D1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C6D8C2E3B7C29AA4B568022CD807D611C74AFB22" : 0,
+    "49B1347B596B15B4A7A86DA0ED609683BFE160D1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BAF7012C-630E-43A9-BE46-2D1A5FF591D2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C6D8C2E3B7C29AA4B568022CD807D611C74AFB22" : "",
+    "49B1347B596B15B4A7A86DA0ED609683BFE160D1" : "OXSwitch\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "OXSwitch",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "OXSwitch.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/h5865885\/OXSwitch.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "49B1347B596B15B4A7A86DA0ED609683BFE160D1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/h5865885\/foldView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C6D8C2E3B7C29AA4B568022CD807D611C74AFB22"
+    }
+  ]
+}
