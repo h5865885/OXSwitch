@@ -1,6 +1,6 @@
 #OXSwitch
-*继承与UIControl 类似UISwitch的一个控件
-*用block实现回调
+* 1.继承与UIControl 类似UISwitch的一个控件
+* 2.用block实现回调
 
   _oxSwitch = [[OXSwitch alloc]initWithFrame:CGRectMake(50, 50, 40, 25)];
   self.oxSwitch.status = SwitchStatuOff;
